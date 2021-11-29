@@ -1,0 +1,80 @@
+﻿@model Demo.BL.Models.EmployeeVM
+
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h2>Edit</h2>
+
+
+
+<br />
+
+<a asp-action="Index" asp-controller="Employee" class="btn btn-primary">Back To Employees</a>
+
+<br />
+<br />
+
+<form class="form-group" asp-action="Edit" asp-controller="Employee">
+
+
+    <br />
+    <div asp-validation-summary="All" class="text-danger"></div>
+    <br />
+
+
+
+    <label asp-for="Name">Employee Name</label>
+    <input type="text" class="form-control" asp-for="Name" />
+    <span asp-validation-for="Name" class="text-daner"></span>
+    <br />
+
+    <label asp-for="Salary">Employee Salary</label>
+    <input type="text" class="form-control" asp-for="Salary" />
+    <span asp-validation-for="Salary" class="text-daner"></span>
+    <br />
+
+    <label asp-for="Email">Employee Email</label>
+    <input type="text" class="form-control" asp-for="Email" />
+    <span asp-validation-for="Email" class="text-daner"></span>
+    <br />
+
+    <label asp-for="HireDate">Hire Date</label>
+    <input type="text" class="form-control" asp-for="HireDate" />
+    <span asp-validation-for="HireDate" class="text-daner"></span>
+    <br />
+
+    <label asp-for="Notes">Notes</label>
+    <textarea class="form-control" asp-for="Notes"></textarea>
+    <span asp-validation-for="Notes" class="text-daner"></span>
+    <br />
+
+    <div class="demo-checkbox">
+        <input type="checkbox" asp-for="IsActive">
+        <label asp-for="IsActive">IsActive</label>
+    </div>
+    <span asp-validation-for="IsActive" class="text-daner"></span>
+    <br />
+
+    <label asp-for="DepartmentId">Department</label>
+    <select asp-for="DepartmentId" asp-items="(SelectList)ViewBag.DepartmentList">
+        <option>Choose Department</option>
+    </select>
+    <span asp-validation-for="DepartmentId" class="text-daner"></span>
+    <br />
+
+    <br />
+
+    <center>
+        <input type="submit" value="Save" class="btn btn-primary" />
+        <input type="reset" value="Cancle" class="btn btn-danger" />
+    </center>
+
+</form>
+
+
+@section ClientValidation{
+    <script src="~/plugins/jquery-validation/jquery.validate.js"></script>
+    <script src="~/plugins/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+}

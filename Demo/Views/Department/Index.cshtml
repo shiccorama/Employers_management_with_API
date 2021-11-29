@@ -1,0 +1,74 @@
+﻿@model IEnumerable<Demo.BL.Models.DepartmentVM>
+
+
+@{
+    ViewBag.Title = SharedLocalizer["Department"];
+}
+
+<link href="~/plugins/bootstrap-select/css/bootstrap-select.css" rel="stylesheet" />
+<style>
+    th {
+        text-align: center !important;
+    }
+</style>
+<h2>@SharedLocalizer["WTD"]</h2>
+
+
+@*<center>
+        <h1>@ViewData["x"]</h1>
+        <h1>@ViewBag.y</h1>
+        <h1>@TempData["z"]</h1>
+    </center>*@
+
+
+
+<br />
+
+<a asp-action="Create" asp-controller="Department" class="btn btn-primary">@SharedLocalizer["CND"]</a>
+
+<br />
+<br />
+
+<form class="form-group" asp-controller="Department" asp-action="Index">
+
+    <div class="row">
+        <div class="col-lg-10">
+            <input type="text" placeholder="@SharedLocalizer["SBDN"]" class="form-control" name="SearchValue" />
+        </div>
+        <div class="col-lg-2">
+            <input type="submit" value="@SharedLocalizer["Search"]" class="btn btn-success" />
+        </div>
+    </div>
+
+</form>
+
+<br />
+<br />
+
+
+
+
+    <table class="table table-bordered table-striped table-hover text-center font-weight-bold">
+        <tr class="thead-dark">
+            <th>@SharedLocalizer["Id"]</th>
+            <th>@SharedLocalizer["DepartmentName"]</th>
+            <th>@SharedLocalizer["DepartmentCode"]</th>
+            <th>@SharedLocalizer["Update"]</th>
+            <th>@SharedLocalizer["Remove"]</th>
+            <th>@SharedLocalizer["Details"]</th>
+        </tr>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.DepartmentName</td>
+                <td>@item.DepartmentCode</td>
+                <td><a asp-action="Edit" asp-controller="Department" asp-route-id="@item.Id" class="btn btn-success">@SharedLocalizer["Update"]</a></td>
+                <td><a asp-action="Delete" asp-controller="Department" asp-route-id="@item.Id" class="btn btn-danger">@SharedLocalizer["Remove"]</a></td>
+                <td><a asp-action="Details" asp-controller="Department" asp-route-id="@item.Id" class="btn btn-info">@SharedLocalizer["Details"]</a></td>
+            </tr>
+        }
+    </table>
+
+
+

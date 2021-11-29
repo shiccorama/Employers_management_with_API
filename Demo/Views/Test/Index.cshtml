@@ -1,0 +1,37 @@
+﻿@using Demo.BL.Interfaces
+
+@inject IDepartmentRep department 
+
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+
+    @*<ul>
+        @foreach (var item in department.Get())
+        {
+            <li>@item.DepartmentName</li>
+        }
+    </ul>*@
+
+    @*<select >
+        <option>Choose Department</option>
+
+        @foreach (var item in department.Get())
+        {
+            <option value="@item.Id">@item.DepartmentName</option>
+        }
+    </select>*@
+
+
+</body>
+</html>

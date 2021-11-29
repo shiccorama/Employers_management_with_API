@@ -1,0 +1,42 @@
+﻿@model Demo.BL.Models.CreateRoleVM
+
+@{
+    ViewBag.Title = "Create Role";
+}
+
+<br />
+<br />
+
+<a asp-controller="Admin" asp-action="Index" class="btn btn-pink waves-effect">Back To Roles</a>
+
+
+<br />
+<br />
+
+
+<form asp-controller="Admin" asp-action="CreateRole">
+    <div class="msg">Create New Role</div>
+
+    <div asp-validation-summary="All" class="text-danger"></div>
+
+    <div class="input-group">
+        <span class="input-group-addon">
+            <i class="material-icons">lock</i>
+        </span>
+        <div class="form-line">
+            <input asp-for="RoleName" class="form-control" placeholder="Enter Role Name" style="padding-left:20px">
+            <span asp-validation-for="RoleName" class="text-danger"></span>
+        </div>
+    </div>
+
+    <center>
+        <input type="submit" class="btn  bg-primary waves-effect" value="Create" />
+        <input type="reset" class="btn  bg-pink waves-effect" value="Cancle" />
+    </center>
+</form>
+
+
+@section ClientValidation{
+    <script src="~/plugins/jquery-validation/jquery.validate.js"></script>
+    <script src="~/plugins/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+}

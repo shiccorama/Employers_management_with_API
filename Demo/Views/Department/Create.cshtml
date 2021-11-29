@@ -1,0 +1,48 @@
+﻿@model Demo.BL.Models.DepartmentVM
+
+
+@{
+    ViewData["Title"] = SharedLocalizer["Create"];
+}
+
+<h2>@SharedLocalizer["Create"]</h2>
+
+
+
+<br />
+
+<a asp-action="Index" asp-controller="Department" class="btn btn-primary">Back To Departments</a>
+
+<br />
+<br />
+
+
+<form asp-action="Create" asp-controller="Department" class="form-group">
+
+    <br />
+    <div asp-validation-summary="All" class="text-danger"></div>
+    <br />
+
+    <label asp-for="DepartmentName">Department Name</label>
+    <input type="text" class="form-control" asp-for="DepartmentName" />
+    <span asp-validation-for="DepartmentName" class="text-danger"></span>
+    <br />
+
+    <label asp-for="DepartmentCode">Department Code</label>
+    <input type="text" class="form-control" asp-for="DepartmentCode" />
+    <span asp-validation-for="DepartmentCode" class="text-danger"></span>
+
+    <br />
+
+    <center>
+        <input type="submit" value="Save" class="btn btn-primary" />
+        <input type="reset" value="Cancle" class="btn btn-danger" />
+    </center>
+
+</form>
+
+
+@section ClientValidation{
+    <script src="~/plugins/jquery-validation/jquery.validate.js"></script>
+    <script src="~/plugins/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+}

@@ -1,0 +1,190 @@
+﻿@model Demo.BL.Models.EmployeeVM
+
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h2>Create</h2>
+
+
+
+<br />
+
+<a asp-action="Index" asp-controller="Employee" class="btn btn-primary">Back To Employees</a>
+
+<br />
+<br />
+
+<form enctype="multipart/form-data" class="form-group" asp-action="Create" asp-controller="Employee">
+
+
+    <br />
+    <div asp-validation-summary="All" class="text-danger"></div>
+    <br />
+
+
+
+    <label asp-for="Name">Employee Name</label>
+    <input type="text" class="form-control" asp-for="Name" />
+    <span asp-validation-for="Name" class="text-daner"></span>
+    <br />
+
+    <label asp-for="Salary">Employee Salary</label>
+    <input type="text" class="form-control" asp-for="Salary" />
+    <span asp-validation-for="Salary" class="text-daner"></span>
+    <br />
+
+    <label asp-for="Email">Employee Email</label>
+    <input type="text" class="form-control" asp-for="Email" />
+    <span asp-validation-for="Email" class="text-daner"></span>
+    <br />
+
+    <label asp-for="HireDate">Hire Date</label>
+    <input type="date" class="form-control" asp-for="HireDate" />
+    <span asp-validation-for="HireDate" class="text-daner"></span>
+    <br />
+
+    <label asp-for="Notes">Notes</label>
+    <textarea class="form-control" asp-for="Notes"></textarea>
+    <span asp-validation-for="Notes" class="text-daner"></span>
+    <br />
+
+    <div class="demo-checkbox">
+        <input type="checkbox" asp-for="IsActive" checked="">
+        <label asp-for="IsActive">IsActive</label>
+    </div>
+    <span asp-validation-for="IsActive" class="text-daner"></span>
+    <br />
+
+    <label asp-for="DepartmentId">Department</label>
+    <select asp-for="DepartmentId" asp-items="(SelectList)ViewBag.DepartmentList">
+        <option>Choose Department</option>
+    </select>
+    <span asp-validation-for="DepartmentId" class="text-daner"></span>
+    <br />
+
+    <label>Country</label>
+    <select id="CountryId" asp-items="(SelectList)ViewBag.CountryList">
+        <option>Choose Country</option>
+    </select>
+
+
+    <br />
+
+    <label>City</label>
+    <select id="CityId">
+        <option>Choose City</option>
+    </select>
+
+    <br />
+
+    <label asp-for="DistrictId">District</label>
+    <select asp-for="DistrictId">
+        <option>Choose District</option>
+    </select>
+
+    <br />
+
+
+
+    <label asp-for="PhotoUrl">Employee Photo</label>
+    <input type="file" class="form-control" asp-for="PhotoUrl" />
+    <span asp-validation-for="PhotoUrl" class="text-daner"></span>
+    <br />
+
+
+    <label asp-for="CvUrl">Employee Cv</label>
+    <input type="file" class="form-control" asp-for="CvUrl" />
+    <span asp-validation-for="CvUrl" class="text-daner"></span>
+    <br />
+
+    <center>
+        <input type="submit" value="Save" class="btn btn-primary" />
+        <input type="reset" value="Cancle" class="btn btn-danger" />
+    </center>
+
+</form>
+
+
+@section ClientValidation{
+    <script src="~/plugins/jquery-validation/jquery.validate.js"></script>
+    <script src="~/plugins/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+
+
+
+    <script>
+
+        $(function () {
+
+
+            $("#CountryId").change(function () {
+
+                var CountryID = $("#CountryId option:selected").val();
+
+                $("#CityId").empty();
+                $("#CityId").append("<option>Choose City</option>");
+
+
+                $.ajax({
+
+                    type:"POST",
+                    url: "/Employee/GetCityByCntryID",
+                    data: { CtryID: CountryID },
+                    success: function (res) {
+
+                        $.each(res, function (i, e) {
+
+
+                            $("#CityId").append("<option value='" + e.Id + "'>" + e.CityName + "</option>");
+
+
+                        });
+                    }
+
+
+                });
+
+            });
+
+            $("#CityId").change(function () {
+
+                var CityID = $("#CityId option:selected").val();
+
+                $("#DistrictId").empty();
+                $("#DistrictId").append("<option>Choose City</option>");
+
+
+                $.ajax({
+
+                    type: "POST",
+                    url: "/Employee/GetDistrictByCity",
+                    data: { CtyID: CityID },
+                    success: function (res) {
+
+
+                        $.each(res, function (i, e) {
+
+
+                            $("#DistrictId").append("<option value='" + e.Id + "'>" + e.DistrictName + "</option>");
+
+                        });
+                    }
+
+
+                });
+
+            });
+
+
+        });
+
+
+    </script>
+
+}
+
+
+
+
+

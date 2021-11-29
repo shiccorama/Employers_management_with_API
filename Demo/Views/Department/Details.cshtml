@@ -1,0 +1,33 @@
+﻿@model Demo.BL.Models.DepartmentVM
+
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Create</h2>
+
+
+
+<br />
+
+<a asp-action="Index" asp-controller="Department" class="btn btn-primary">Back To Departments</a>
+<a asp-action="Edit" asp-controller="Department" asp-route-id="@Model.Id" class="btn btn-success">Edit</a>
+
+<br />
+<br />
+
+
+<form class="form-group">
+
+    <label asp-for="Id">Id</label>
+    <input type="text" asp-for="Id" disabled />
+
+    <label asp-for="DepartmentName">Department Name</label>
+    <input type="text" class="form-control" asp-for="DepartmentName" disabled />
+    <br />
+
+    <label asp-for="DepartmentCode">Department Code</label>
+    <input type="text" class="form-control" asp-for="DepartmentCode" disabled />
+
+</form>

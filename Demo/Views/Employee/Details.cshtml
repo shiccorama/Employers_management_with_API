@@ -1,0 +1,57 @@
+﻿@model Demo.BL.Models.EmployeeVM
+
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Create</h2>
+
+
+
+<br />
+
+<a asp-action="Index" asp-controller="Employee" class="btn btn-primary">Back To Employees</a>
+<a asp-action="Edit" asp-controller="Employee" asp-route-id="@Model.Id" class="btn btn-success">Edit</a>
+
+<br />
+<br />
+
+
+<form class="form-group">
+
+    <label asp-for="Id">Id</label>
+    <input type="text" asp-for="Id" disabled />
+
+    <label asp-for="Name">Employee Name</label>
+    <input type="text" class="form-control" asp-for="Name" disabled />
+    <br />
+
+    <label asp-for="Salary">Employee Salary</label>
+    <input type="text" class="form-control" asp-for="Salary" disabled />
+    <br />
+
+    <label asp-for="Email">Employee Email</label>
+    <input type="text" class="form-control" asp-for="Email" disabled />
+    <br />
+
+    <label asp-for="HireDate">Hire Date</label>
+    <input type="text" class="form-control" asp-for="HireDate" disabled />
+    <br />
+
+    <label asp-for="Notes">Notes</label>
+    <textarea class="form-control" asp-for="Notes" disabled></textarea>
+    <br />
+
+    <div class="demo-checkbox">
+        <input type="checkbox" asp-for="IsActive" checked="" disabled>
+        <label asp-for="IsActive">IsActive</label>
+    </div>
+    <br />
+
+    <label asp-for="Name">Department</label>
+    <select asp-items="(SelectList)ViewBag.DepartmentList" disabled ></select>
+    <br />
+
+
+</form>

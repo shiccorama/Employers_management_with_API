@@ -1,0 +1,120 @@
+C:\Users\khalifa-dell\Source\Repos\Demo.BL\bin\Debug\netcoreapp3.1\Demo.BL.deps.json
+C:\Users\khalifa-dell\Source\Repos\Demo.BL\bin\Debug\netcoreapp3.1\Demo.BL.dll
+C:\Users\khalifa-dell\Source\Repos\Demo.BL\bin\Debug\netcoreapp3.1\Demo.BL.pdb
+C:\Users\khalifa-dell\Source\Repos\Demo.BL\bin\Debug\netcoreapp3.1\Demo.DAL.dll
+C:\Users\khalifa-dell\Source\Repos\Demo.BL\bin\Debug\netcoreapp3.1\Demo.DAL.pdb
+C:\Users\khalifa-dell\Source\Repos\Demo.BL\obj\Debug\netcoreapp3.1\Demo.BL.csprojAssemblyReference.cache
+C:\Users\khalifa-dell\Source\Repos\Demo.BL\obj\Debug\netcoreapp3.1\Demo.BL.AssemblyInfoInputs.cache
+C:\Users\khalifa-dell\Source\Repos\Demo.BL\obj\Debug\netcoreapp3.1\Demo.BL.AssemblyInfo.cs
+C:\Users\khalifa-dell\Source\Repos\Demo.BL\obj\Debug\netcoreapp3.1\Demo.BL.csproj.CoreCompileInputs.cache
+C:\Users\khalifa-dell\Source\Repos\Demo.BL\obj\Debug\netcoreapp3.1\Demo.BL.csproj.CopyComplete
+C:\Users\khalifa-dell\Source\Repos\Demo.BL\obj\Debug\netcoreapp3.1\Demo.BL.dll
+C:\Users\khalifa-dell\Source\Repos\Demo.BL\obj\Debug\netcoreapp3.1\Demo.BL.pdb
+D:\Rounds\Sharp\R6\.Net Core\Session4_Core\App\Demo.BL\bin\Debug\netcoreapp3.1\Demo.BL.deps.json
+D:\Rounds\Sharp\R6\.Net Core\Session4_Core\App\Demo.BL\bin\Debug\netcoreapp3.1\Demo.BL.dll
+D:\Rounds\Sharp\R6\.Net Core\Session4_Core\App\Demo.BL\bin\Debug\netcoreapp3.1\Demo.BL.pdb
+D:\Rounds\Sharp\R6\.Net Core\Session4_Core\App\Demo.BL\bin\Debug\netcoreapp3.1\Demo.DAL.dll
+D:\Rounds\Sharp\R6\.Net Core\Session4_Core\App\Demo.BL\bin\Debug\netcoreapp3.1\Demo.DAL.pdb
+D:\Rounds\Sharp\R6\.Net Core\Session4_Core\App\Demo.BL\obj\Debug\netcoreapp3.1\Demo.BL.csprojAssemblyReference.cache
+D:\Rounds\Sharp\R6\.Net Core\Session4_Core\App\Demo.BL\obj\Debug\netcoreapp3.1\Demo.BL.AssemblyInfoInputs.cache
+D:\Rounds\Sharp\R6\.Net Core\Session4_Core\App\Demo.BL\obj\Debug\netcoreapp3.1\Demo.BL.AssemblyInfo.cs
+D:\Rounds\Sharp\R6\.Net Core\Session4_Core\App\Demo.BL\obj\Debug\netcoreapp3.1\Demo.BL.csproj.CoreCompileInputs.cache
+D:\Rounds\Sharp\R6\.Net Core\Session4_Core\App\Demo.BL\obj\Debug\netcoreapp3.1\Demo.BL.csproj.CopyComplete
+D:\Rounds\Sharp\R6\.Net Core\Session4_Core\App\Demo.BL\obj\Debug\netcoreapp3.1\Demo.BL.dll
+D:\Rounds\Sharp\R6\.Net Core\Session4_Core\App\Demo.BL\obj\Debug\netcoreapp3.1\Demo.BL.pdb
+D:\Rounds\Sharp\R6\.Net Core\Session5_Core\App\Demo.BL\obj\Debug\netcoreapp3.1\Demo.BL.csprojAssemblyReference.cache
+D:\Rounds\Sharp\R6\.Net Core\Session5_Core\App\Demo.BL\obj\Debug\netcoreapp3.1\Demo.BL.AssemblyInfoInputs.cache
+D:\Rounds\Sharp\R6\.Net Core\Session5_Core\App\Demo.BL\obj\Debug\netcoreapp3.1\Demo.BL.AssemblyInfo.cs
+D:\Rounds\Sharp\R6\.Net Core\Session5_Core\App\Demo.BL\obj\Debug\netcoreapp3.1\Demo.BL.csproj.CoreCompileInputs.cache
+D:\Rounds\Sharp\R6\.Net Core\Session5_Core\App\Demo.BL\obj\Debug\netcoreapp3.1\Demo.BL.dll
+D:\Rounds\Sharp\R6\.Net Core\Session5_Core\App\Demo.BL\obj\Debug\netcoreapp3.1\Demo.BL.pdb
+D:\Rounds\Sharp\R6\.Net Core\Session5_Core\App\Demo.BL\bin\Debug\netcoreapp3.1\Demo.BL.deps.json
+D:\Rounds\Sharp\R6\.Net Core\Session5_Core\App\Demo.BL\bin\Debug\netcoreapp3.1\Demo.BL.dll
+D:\Rounds\Sharp\R6\.Net Core\Session5_Core\App\Demo.BL\bin\Debug\netcoreapp3.1\Demo.BL.pdb
+D:\Rounds\Sharp\R6\.Net Core\Session5_Core\App\Demo.BL\bin\Debug\netcoreapp3.1\Demo.DAL.dll
+D:\Rounds\Sharp\R6\.Net Core\Session5_Core\App\Demo.BL\bin\Debug\netcoreapp3.1\Demo.DAL.pdb
+D:\Rounds\Sharp\R6\.Net Core\Session5_Core\App\Demo.BL\obj\Debug\netcoreapp3.1\Demo.BL.csproj.CopyComplete
+D:\Rounds\Sharp\R6\.Net Core\Session6_Core\App\Demo.BL\bin\Debug\netcoreapp3.1\Demo.BL.deps.json
+D:\Rounds\Sharp\R6\.Net Core\Session6_Core\App\Demo.BL\bin\Debug\netcoreapp3.1\Demo.BL.dll
+D:\Rounds\Sharp\R6\.Net Core\Session6_Core\App\Demo.BL\bin\Debug\netcoreapp3.1\Demo.BL.pdb
+D:\Rounds\Sharp\R6\.Net Core\Session6_Core\App\Demo.BL\bin\Debug\netcoreapp3.1\Demo.DAL.dll
+D:\Rounds\Sharp\R6\.Net Core\Session6_Core\App\Demo.BL\bin\Debug\netcoreapp3.1\Demo.DAL.pdb
+D:\Rounds\Sharp\R6\.Net Core\Session6_Core\App\Demo.BL\obj\Debug\netcoreapp3.1\Demo.BL.csprojAssemblyReference.cache
+D:\Rounds\Sharp\R6\.Net Core\Session6_Core\App\Demo.BL\obj\Debug\netcoreapp3.1\Demo.BL.AssemblyInfoInputs.cache
+D:\Rounds\Sharp\R6\.Net Core\Session6_Core\App\Demo.BL\obj\Debug\netcoreapp3.1\Demo.BL.AssemblyInfo.cs
+D:\Rounds\Sharp\R6\.Net Core\Session6_Core\App\Demo.BL\obj\Debug\netcoreapp3.1\Demo.BL.csproj.CoreCompileInputs.cache
+D:\Rounds\Sharp\R6\.Net Core\Session6_Core\App\Demo.BL\obj\Debug\netcoreapp3.1\Demo.BL.csproj.CopyComplete
+D:\Rounds\Sharp\R6\.Net Core\Session6_Core\App\Demo.BL\obj\Debug\netcoreapp3.1\Demo.BL.dll
+D:\Rounds\Sharp\R6\.Net Core\Session6_Core\App\Demo.BL\obj\Debug\netcoreapp3.1\Demo.BL.pdb
+D:\Rounds\Sharp\R6\.Net Core\Session7_Core\App\Demo.BL\bin\Debug\netcoreapp3.1\Demo.BL.deps.json
+D:\Rounds\Sharp\R6\.Net Core\Session7_Core\App\Demo.BL\bin\Debug\netcoreapp3.1\Demo.BL.dll
+D:\Rounds\Sharp\R6\.Net Core\Session7_Core\App\Demo.BL\bin\Debug\netcoreapp3.1\Demo.BL.pdb
+D:\Rounds\Sharp\R6\.Net Core\Session7_Core\App\Demo.BL\bin\Debug\netcoreapp3.1\Demo.DAL.dll
+D:\Rounds\Sharp\R6\.Net Core\Session7_Core\App\Demo.BL\bin\Debug\netcoreapp3.1\Demo.DAL.pdb
+D:\Rounds\Sharp\R6\.Net Core\Session7_Core\App\Demo.BL\obj\Debug\netcoreapp3.1\Demo.BL.csprojAssemblyReference.cache
+D:\Rounds\Sharp\R6\.Net Core\Session7_Core\App\Demo.BL\obj\Debug\netcoreapp3.1\Demo.BL.AssemblyInfoInputs.cache
+D:\Rounds\Sharp\R6\.Net Core\Session7_Core\App\Demo.BL\obj\Debug\netcoreapp3.1\Demo.BL.AssemblyInfo.cs
+D:\Rounds\Sharp\R6\.Net Core\Session7_Core\App\Demo.BL\obj\Debug\netcoreapp3.1\Demo.BL.csproj.CoreCompileInputs.cache
+D:\Rounds\Sharp\R6\.Net Core\Session7_Core\App\Demo.BL\obj\Debug\netcoreapp3.1\Demo.BL.csproj.CopyComplete
+D:\Rounds\Sharp\R6\.Net Core\Session7_Core\App\Demo.BL\obj\Debug\netcoreapp3.1\Demo.BL.dll
+D:\Rounds\Sharp\R6\.Net Core\Session7_Core\App\Demo.BL\obj\Debug\netcoreapp3.1\Demo.BL.pdb
+D:\Rounds\Sharp\R6\.Net Core\Session8_Core\App\Demo.BL\bin\Debug\netcoreapp3.1\Demo.BL.deps.json
+D:\Rounds\Sharp\R6\.Net Core\Session8_Core\App\Demo.BL\bin\Debug\netcoreapp3.1\Demo.BL.dll
+D:\Rounds\Sharp\R6\.Net Core\Session8_Core\App\Demo.BL\bin\Debug\netcoreapp3.1\Demo.BL.pdb
+D:\Rounds\Sharp\R6\.Net Core\Session8_Core\App\Demo.BL\bin\Debug\netcoreapp3.1\Demo.DAL.dll
+D:\Rounds\Sharp\R6\.Net Core\Session8_Core\App\Demo.BL\bin\Debug\netcoreapp3.1\Demo.DAL.pdb
+D:\Rounds\Sharp\R6\.Net Core\Session8_Core\App\Demo.BL\obj\Debug\netcoreapp3.1\Demo.BL.csprojAssemblyReference.cache
+D:\Rounds\Sharp\R6\.Net Core\Session8_Core\App\Demo.BL\obj\Debug\netcoreapp3.1\Demo.BL.AssemblyInfoInputs.cache
+D:\Rounds\Sharp\R6\.Net Core\Session8_Core\App\Demo.BL\obj\Debug\netcoreapp3.1\Demo.BL.AssemblyInfo.cs
+D:\Rounds\Sharp\R6\.Net Core\Session8_Core\App\Demo.BL\obj\Debug\netcoreapp3.1\Demo.BL.csproj.CoreCompileInputs.cache
+D:\Rounds\Sharp\R6\.Net Core\Session8_Core\App\Demo.BL\obj\Debug\netcoreapp3.1\Demo.BL.csproj.CopyComplete
+D:\Rounds\Sharp\R6\.Net Core\Session8_Core\App\Demo.BL\obj\Debug\netcoreapp3.1\Demo.BL.dll
+D:\Rounds\Sharp\R6\.Net Core\Session8_Core\App\Demo.BL\obj\Debug\netcoreapp3.1\Demo.BL.pdb
+D:\Rounds\Sharp\R6\.Net Core\Session9_Core\App\Demo.BL\bin\Debug\netcoreapp3.1\Demo.BL.deps.json
+D:\Rounds\Sharp\R6\.Net Core\Session9_Core\App\Demo.BL\bin\Debug\netcoreapp3.1\Demo.BL.dll
+D:\Rounds\Sharp\R6\.Net Core\Session9_Core\App\Demo.BL\bin\Debug\netcoreapp3.1\Demo.BL.pdb
+D:\Rounds\Sharp\R6\.Net Core\Session9_Core\App\Demo.BL\bin\Debug\netcoreapp3.1\Demo.DAL.dll
+D:\Rounds\Sharp\R6\.Net Core\Session9_Core\App\Demo.BL\bin\Debug\netcoreapp3.1\Demo.DAL.pdb
+D:\Rounds\Sharp\R6\.Net Core\Session9_Core\App\Demo.BL\obj\Debug\netcoreapp3.1\Demo.BL.csprojAssemblyReference.cache
+D:\Rounds\Sharp\R6\.Net Core\Session9_Core\App\Demo.BL\obj\Debug\netcoreapp3.1\Demo.BL.AssemblyInfoInputs.cache
+D:\Rounds\Sharp\R6\.Net Core\Session9_Core\App\Demo.BL\obj\Debug\netcoreapp3.1\Demo.BL.AssemblyInfo.cs
+D:\Rounds\Sharp\R6\.Net Core\Session9_Core\App\Demo.BL\obj\Debug\netcoreapp3.1\Demo.BL.csproj.CoreCompileInputs.cache
+D:\Rounds\Sharp\R6\.Net Core\Session9_Core\App\Demo.BL\obj\Debug\netcoreapp3.1\Demo.BL.csproj.CopyComplete
+D:\Rounds\Sharp\R6\.Net Core\Session9_Core\App\Demo.BL\obj\Debug\netcoreapp3.1\Demo.BL.dll
+D:\Rounds\Sharp\R6\.Net Core\Session9_Core\App\Demo.BL\obj\Debug\netcoreapp3.1\Demo.BL.pdb
+D:\Rounds\Sharp\R6\.Net Core\Session10_Core\App\Demo.BL\bin\Debug\netcoreapp3.1\Demo.BL.deps.json
+D:\Rounds\Sharp\R6\.Net Core\Session10_Core\App\Demo.BL\bin\Debug\netcoreapp3.1\Demo.BL.dll
+D:\Rounds\Sharp\R6\.Net Core\Session10_Core\App\Demo.BL\bin\Debug\netcoreapp3.1\Demo.BL.pdb
+D:\Rounds\Sharp\R6\.Net Core\Session10_Core\App\Demo.BL\bin\Debug\netcoreapp3.1\Demo.DAL.dll
+D:\Rounds\Sharp\R6\.Net Core\Session10_Core\App\Demo.BL\bin\Debug\netcoreapp3.1\Demo.DAL.pdb
+D:\Rounds\Sharp\R6\.Net Core\Session10_Core\App\Demo.BL\obj\Debug\netcoreapp3.1\Demo.BL.csprojAssemblyReference.cache
+D:\Rounds\Sharp\R6\.Net Core\Session10_Core\App\Demo.BL\obj\Debug\netcoreapp3.1\Demo.BL.AssemblyInfoInputs.cache
+D:\Rounds\Sharp\R6\.Net Core\Session10_Core\App\Demo.BL\obj\Debug\netcoreapp3.1\Demo.BL.AssemblyInfo.cs
+D:\Rounds\Sharp\R6\.Net Core\Session10_Core\App\Demo.BL\obj\Debug\netcoreapp3.1\Demo.BL.csproj.CoreCompileInputs.cache
+D:\Rounds\Sharp\R6\.Net Core\Session10_Core\App\Demo.BL\obj\Debug\netcoreapp3.1\Demo.BL.csproj.CopyComplete
+D:\Rounds\Sharp\R6\.Net Core\Session10_Core\App\Demo.BL\obj\Debug\netcoreapp3.1\Demo.BL.dll
+D:\Rounds\Sharp\R6\.Net Core\Session10_Core\App\Demo.BL\obj\Debug\netcoreapp3.1\Demo.BL.pdb
+D:\Rounds\Sharp\R6\.Net Core\Session11_Core\App\Demo.BL\bin\Debug\netcoreapp3.1\Demo.BL.deps.json
+D:\Rounds\Sharp\R6\.Net Core\Session11_Core\App\Demo.BL\bin\Debug\netcoreapp3.1\Demo.BL.dll
+D:\Rounds\Sharp\R6\.Net Core\Session11_Core\App\Demo.BL\bin\Debug\netcoreapp3.1\Demo.BL.pdb
+D:\Rounds\Sharp\R6\.Net Core\Session11_Core\App\Demo.BL\bin\Debug\netcoreapp3.1\Demo.DAL.dll
+D:\Rounds\Sharp\R6\.Net Core\Session11_Core\App\Demo.BL\bin\Debug\netcoreapp3.1\Demo.DAL.pdb
+D:\Rounds\Sharp\R6\.Net Core\Session11_Core\App\Demo.BL\obj\Debug\netcoreapp3.1\Demo.BL.csprojAssemblyReference.cache
+D:\Rounds\Sharp\R6\.Net Core\Session11_Core\App\Demo.BL\obj\Debug\netcoreapp3.1\Demo.BL.AssemblyInfoInputs.cache
+D:\Rounds\Sharp\R6\.Net Core\Session11_Core\App\Demo.BL\obj\Debug\netcoreapp3.1\Demo.BL.AssemblyInfo.cs
+D:\Rounds\Sharp\R6\.Net Core\Session11_Core\App\Demo.BL\obj\Debug\netcoreapp3.1\Demo.BL.csproj.CoreCompileInputs.cache
+D:\Rounds\Sharp\R6\.Net Core\Session11_Core\App\Demo.BL\obj\Debug\netcoreapp3.1\Demo.BL.csproj.CopyComplete
+D:\Rounds\Sharp\R6\.Net Core\Session11_Core\App\Demo.BL\obj\Debug\netcoreapp3.1\Demo.BL.dll
+D:\Rounds\Sharp\R6\.Net Core\Session11_Core\App\Demo.BL\obj\Debug\netcoreapp3.1\Demo.BL.pdb
+D:\Rounds\Sharp\R6\.Net Core\Session12_Core\App\Demo.BL\bin\Debug\netcoreapp3.1\Demo.BL.deps.json
+D:\Rounds\Sharp\R6\.Net Core\Session12_Core\App\Demo.BL\bin\Debug\netcoreapp3.1\Demo.BL.dll
+D:\Rounds\Sharp\R6\.Net Core\Session12_Core\App\Demo.BL\bin\Debug\netcoreapp3.1\Demo.BL.pdb
+D:\Rounds\Sharp\R6\.Net Core\Session12_Core\App\Demo.BL\bin\Debug\netcoreapp3.1\Demo.DAL.dll
+D:\Rounds\Sharp\R6\.Net Core\Session12_Core\App\Demo.BL\bin\Debug\netcoreapp3.1\Demo.DAL.pdb
+D:\Rounds\Sharp\R6\.Net Core\Session12_Core\App\Demo.BL\obj\Debug\netcoreapp3.1\Demo.BL.csprojAssemblyReference.cache
+D:\Rounds\Sharp\R6\.Net Core\Session12_Core\App\Demo.BL\obj\Debug\netcoreapp3.1\Demo.BL.AssemblyInfoInputs.cache
+D:\Rounds\Sharp\R6\.Net Core\Session12_Core\App\Demo.BL\obj\Debug\netcoreapp3.1\Demo.BL.AssemblyInfo.cs
+D:\Rounds\Sharp\R6\.Net Core\Session12_Core\App\Demo.BL\obj\Debug\netcoreapp3.1\Demo.BL.csproj.CoreCompileInputs.cache
+D:\Rounds\Sharp\R6\.Net Core\Session12_Core\App\Demo.BL\obj\Debug\netcoreapp3.1\Demo.BL.csproj.CopyComplete
+D:\Rounds\Sharp\R6\.Net Core\Session12_Core\App\Demo.BL\obj\Debug\netcoreapp3.1\Demo.BL.dll
+D:\Rounds\Sharp\R6\.Net Core\Session12_Core\App\Demo.BL\obj\Debug\netcoreapp3.1\Demo.BL.pdb
